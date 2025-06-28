@@ -1,0 +1,96 @@
+/* Background Image */
+body {
+  margin: 0;
+  font-family: 'Arial', sans-serif;
+  background: url('imag/gg.jpeg') no-repeat center center;
+  background-color: rgb(58, 57, 57);
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+/* Form Container */
+.container {
+  background-color: white;
+  padding: 30px;
+  border-radius: 10px;
+  width: 600px;
+  height: 650px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+  opacity: 0.95;
+  border: double;
+}
+
+.form h2 {
+  text-align: center;
+  color: #000000;
+  margin-top: 20px;
+  font-size: 32px;
+  
+}
+
+.decor-line {
+  text-align: center;
+  font-size: 22px;
+  color:solid #2d6a4f;
+  margin-bottom: 25px;
+}
+
+.input-row {
+  display: flex;
+  justify-content: space-between;
+  gap: 15px;
+  margin-bottom: 20px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+select,
+textarea {
+  width: 100%;
+  padding: 10px;
+  border: 2px solid #2d6a4f;
+  border-radius: 5px;
+  font-size: 14px;
+  background-color: #f9f9f9;
+}
+
+textarea {
+  width: 100%;
+  margin-top: 10px;
+}
+
+.file-upload {
+  margin: 30px 0;
+  font-weight: bold;
+  padding: 10px;
+
+}
+.file-upload[type="submit"]{
+
+    background-color: #003b1f;
+}
+
+
+input[type="file"] {
+  margin-left: 10px;
+}
+
+/* Submit Button */
+button {
+  width: 100%;
+  padding: 12px;
+  background: linear-gradient(to right, #004d26, #2d6a4f);
+  color: white;
+  font-size: 16px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+button:hover {
+  background: linear-gradient(to right, #003b1f, #245f45);
+}

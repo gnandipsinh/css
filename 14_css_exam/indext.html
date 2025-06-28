@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Job Application Form</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <form class="form">
+        
+      <h2>Job Application Form</h2>
+      <div class="decor-line">
+        <img src="imag/gm.jpg"  width="600px"   alt="">
+      </div>
+
+      <div class="input-row">
+        <input type="text" placeholder="Enter Your First Name" required>
+        <input type="text" placeholder="Enter Your Last Name" required>
+      </div>
+
+      <div class="input-row">
+        <input type="email" placeholder="Enter Your Email" required>
+        <input type="tel" placeholder="Enter Your Number" required>
+      </div>
+
+      <div class="input-row">
+        <select required>
+          <option disabled selected>-- Select City --</option>
+          <option>Ahmedabad</option>
+          <option>Surat</option>
+          <option>bhavnagar</option>
+        </select>
+        <input type="text" placeholder="Position Applied For" required>
+      </div>
+
+      <textarea placeholder="Message" rows="4"></textarea>
+
+      <div class="file-upload">
+        <label>Upload Your CV</label>
+        <br/>
+        <input type="file">
+        
+      </div>
+
+      <button   type="submit">Apply Now</button>
+    </form>
+  </div>
+</body>
+</html>
